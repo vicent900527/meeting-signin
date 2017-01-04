@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="person-list">
+    <block  wx:for="{{signinList}}" >
+    <view class="person-item" >
+        <view class="person-left person-gride">
+            <image src="{{item.image}}" />
+            <text class="person-name">{{item.name}}</text>
+        </view>
+        <text class="person-time person-gride">{{item.time}}</text>
+    </view>
+    </block>
+  </view>
+  <loading hidden="{{isHideLoading}}" >加载中...</loading>
+</view>

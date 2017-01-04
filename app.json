@@ -1,0 +1,32 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/person/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "white",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "年会专用",
+        "navigationBarBackgroundColor": "#292929",
+        "backgroundColor": "#F2f2f2",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "color": "#fff",
+        "selectedColor": "#0FD084",
+        "borderStyle": "white",
+        "backgroundColor": "#292929",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "images/signin_normal.png",
+            "selectedIconPath": "images/signin_selected.png",
+            "text": "签到"
+        }, {
+            "pagePath": "pages/person/index",
+            "iconPath": "images/person_normal.png",
+            "selectedIconPath": "images/person_selected.png",
+            "text": "与会人"
+        }]
+    }
+}

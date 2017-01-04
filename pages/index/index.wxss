@@ -1,0 +1,58 @@
+/**index.wxss**/
+.container{
+ background: #f2f4f6;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  padding: 50rpx 0;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: #333;
+}
+.venues_box{
+    height: 100rpx;
+    background:#000;
+    color:white;
+
+}
+.venues_list{
+    height:100%;
+    display: flex;
+}
+.signin-operate{
+    border-top:1px solid #eee;
+}
+.btn-top{
+
+}
+.btn-item{
+    color: #666;
+    width:100%;
+    display:block;
+    padding:40rpx;
+    border-bottom:1px solid #eee;
+}
+
+.venues_item{
+    width:100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.venues_item text{
+    width: 100%;
+    text-align: center;
+    height: 100rpx;
+    line-height:100rpx;
+}
+.venues_item navigator{
+    display: flex;
+}
